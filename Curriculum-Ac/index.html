@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/ico" href="img/icono.png">
+    <title>Mi Curriculum</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mi Curriculum</a>
+            </div>
+            <nav id="nav">
+                <ul>    
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SobreMi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/foto_personal.jpg" alt="Foto personal">
+            </div>
+            <h1>ERIC SANTUCHO</h1>
+            <h2>Desarrollador Front-End</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/eric.santucho/" target="blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/leonel_9502/" target="blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/eric-santucho-4417a0239/" target="blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/eric-leonel" target="blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p> Mi objetivo como desarrollador web es hacer diseños creativos y amigables al cliente. Soy una persona proactiva y dinámica, acostumbrado a solucionar problemas e imprevistos de manera autónoma, sin necesidad de una supervisión permanente. Tengo capacidad de coordinación, que me permite simultanear de forma satisfactoria diferentes tareas, dando respuesta tanto a las necesidades de los profesionales de la empresa como a las demandas de los clientes.
+            Durante mi experiencia laboral he conseguido adquirir una serie de habilidades, incluyendo la colaboración estrecha y la resolución de problemas. Me considero sobresaliente en las siguientes áreas: 
+            <div class="areas">
+                 <ul>                   
+                    
+                    <li>
+                        Gestión del tiempo para asegurar que se cumplan los objetivos en los plazos previstos.</li>
+                    
+                    <li>
+                        Desarrollo de ámbitos de proyectos y coordinación de los plazos de entrega.</li>
+                    
+                    <li>Trabajo cercano en el soporte a los clientes para
+                    optimizar la fluidez del trabajo</li>
+                </ul>
+            </div>
+
+               
+                </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                                     09-05-2002
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                                   11 5758-7378
+                        </li>
+                        <li>
+                            <strong>Correo electronico</strong>
+                                <a href="mailto:santuchoeric449@gmail.com">santuchoeric449@gmail.com</a>
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                                 Claypole,Buenos Aires, Argentina
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion habilidades -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- habilidades tecnicas -->
+                <div class="col">
+                    <h3>Hablidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Git</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>77%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Frameworks</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Habilidades profesionales -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolucion de problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>76%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <!--Columna izquierda-->
+                <div class="col izquierda">
+                   <h3>Experiencia educativa</h3>
+                    <div class="item izq">
+                        <h4>Curso- Front End</h4>
+                        <span class="casa">Universidad Tecnologica Nacional-UTN</span>
+                        <span class="fecha">2020 </span>
+                        <p>
+                            En este recorrido eh aprendido el uso de Diseño
+                            Responsive, React JS, Bootstrap, JavasCript Y Web proyect. Ademas eh sido autodidacta y eh profundizadado sobre dichos temas.
+                        </p>
+                        
+                    </div>
+                    <div class="item izq">
+                        <h4>Universidad</h4>
+                        <span class="casa">Universidad Nacional de Quilmes</span>
+                        <span class="fecha">En curso...</span>
+                        <p> 
+                            Me encuentro en formacion dentro de la carrera licenciatura en programacion informatica, en este momento estoy cursando el tercer año de la carrera.
+                            En este establecimiento ademas de cursar dicho titulo me concentre en posser un manejo avanzado en Ingles. 
+                        </p>
+                       
+                    </div>
+                </div>
+                    <!--Columna derecha-->
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>    
+                    <div class="item der">
+                        <h4>Experiencia Laboral</h4>
+                        <span class="casa">Desarrollador Front end</span>
+                        <span class="fecha">2021</span>
+                        <p>
+                            <ul>
+                                <li>Optimización del rendimiento, la calidad y la capacidad de respuesta de las aplicaciones</li>
+                                <li>Desarrollo, mantenimiento y mejora de las funcionalidades del producto</li>
+                                <li>Análisis y desarrollo de aplicaciones adaptadas</li>
+                            </ul>
+                         </p>
+                     </div>
+                    <div class="item der">
+                        <h4>Experiencia Laboral</h4>
+                        <span class="casa"> Desarrollador Front end</span>
+                        <span class="fecha">2022</span>
+                        <p>
+                            <ul>
+                                <li>Mantenimiento y mejora de sitios webs y aplicaciones</li>
+                                <li>Maquetación y desarrollo web front-end</li>
+                                <li>Definición y testeo de interfaces de usuario con React</li>
+                            </ul>      
+                        </p>
+                    </div>
+                    <div class="item der">
+                        <h4>Experiencia Laboral</h4>
+                        <span class="casa">Desarrollador Front end</span>
+                        <span class="fecha">2022</span>
+                        <p>
+                            <ul>
+                                <li>Elaboración de código de calidad testeable</li>
+                                <li>Diseño y desarrollo de proyectos web</li>
+                                <li>Creación de aplicaciones a medida con PHP (conocimiento basicos autodidacta), JavaScript, HTML Y CSS</li>      
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button>
+                  <a class="fa-solid fa-download" href="curriculumCV.pdf">Descargar PDF</a>
+                <span class="overlay"></span>
+        </button>
+    </section>
+                <!--SECCION CONTACTO-->
+
+
+   <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre" required>
+                    <input type="text" placeholder="Número telefónico" required>
+                    <input type="text" placeholder="Dirección de correo" required>
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Imagen -->
+                <div class="col">
+                    <img src="img/contacto.png" alt="Contacto">
+                </div>
+            </div>
+        </div>
+    </section>
+        <script src="script.js"></script>
+</body>
+</html>
